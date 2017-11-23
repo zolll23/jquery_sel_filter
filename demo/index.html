@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Filter on select  demo page</title>
+<meta name="author" content="Andrey Pakhomov andrey.pahomov@gmail.com">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="../jquery.sel_filter.js"></script>
+<link href="../jquery.sel_filter.css" rel="stylesheet" title="CSS for jQuery Multiselect plugin" />
+<style>
+#demo {
+    width:200px;
+}
+</style>
+</head>
+<body>
+<script type="text/javascript">
+jQuery(function () {
+    jQuery("#demo").sel_filter({slide_width: 50, min_options: 10, crop: false});
+    jQuery("#demo2").sel_filter({slide_width: 50, min_options: 10, crop: true});
+});
+</script>
+<h1>Filter on select demo page</h1>
+<p>
+Adds text input before select. Input search word for filter options. 
+</p>
+<p>
+Example: input word <b>United</b> for filter values
+<br><br>
+Crop: false
+</p>
+<select id="demo">
+<option>Germany ABUS</option>
+<option>China AEE</option>
+<option>Taiwan Aiptek</option>
+<option>France Alcatel</option>
+<option>Switzerland Alpa</option>
+<option>United States Apple</option>
+<option>United States Arecont Vision</option>
+<option>United States Argus (licensed brand name of extinct company)</option>
+<option>AV Future Link Sdn. Bhd. (AVF)</option>
+<option>Sweden Axis</option>
+<option>United States Better Light</option>
+<option>Canada BlackBerry</option>
+<option>United States BuckEye Cam</option>
+<option>United States Bushnell</option>
+<option>Brica</option>
+<option>Netherlands Cambo</option>
+<option>United States Contour</option>
+<option>United States Covert</option>
+<option>Singapore Creative</option>
+<option>United States Cuddeback</option>
+<option>Taiwan D</option>
+<option>Japan Ebony</option>
+<option>United States EarthCam</option>
+<option>Emprex</option>
+<option>China Fotoman</option>
+<option>United States GoPro</option>
+<option>Sweden Hasselblad</option>
+<option>Japan Hitachi</option>
+<option>Japan Horseman</option>
+<option>Taiwan HTC</option>
+<option>China Huawei</option>
+<option>United States Hunten</option>
+<option>Taiwan iPUX</option>
+<option>United States IQinVision</option>
+<option>IT Works</option>
+<option>Jaga</option>
+<option>Germany Jenoptik</option>
+<option>Japan JVC</option>
+<option>Germany Kaiser</option>
+<option>United States Ken</option>
+<option>Israel Leaf</option>
+<option>China Lenovo</option>
+<option>United States Leupold</option>
+<option>South Korea LG</option>
+<option>Germany Linhof</option>
+<option>Livelook</option>
+<option>Switzerland Logitech</option>
+<option>Canada Lumenera</option>
+<option>Japan Mamiya</option>
+<option>Singapore Mercury</option>
+<option>United States Microsoft</option>
+<option>Germany Minox</option>
+<option>Micro Innovations</option>
+<option>Germany Mobotix</option>
+<option>United States Motorola</option>
+<option>United States Moultrie</option>
+<option>Taiwan Mustek Systems</option>
+<option>Japan Nintendo</option>
+<option>Finland Nokia</option>
+</select>
+<p>
+Crop: true
+</p>
+<select id="demo2">
+<option>Germany ABUS</option>
+<option>China AEE</option>
+<option>Taiwan Aiptek</option>
+<option>France Alcatel</option>
+<option>Switzerland Alpa</option>
+<option>United States Apple</option>
+<option>United States Arecont Vision</option>
+<option>United States Argus (licensed brand name of extinct company)</option>
+<option>AV Future Link Sdn. Bhd. (AVF)</option>
+<option>Sweden Axis</option>
+<option>United States Better Light</option>
+<option>Canada BlackBerry</option>
+<option>United States BuckEye Cam</option>
+<option>United States Bushnell</option>
+<option>Brica</option>
+<option>Netherlands Cambo</option>
+<option>United States Contour</option>
+<option>United States Covert</option>
+<option>Singapore Creative</option>
+<option>United States Cuddeback</option>
+<option>Taiwan D</option>
+<option>Japan Ebony</option>
+<option>United States EarthCam</option>
+<option>Emprex</option>
+<option>China Fotoman</option>
+<option>United States GoPro</option>
+<option>Sweden Hasselblad</option>
+<option>Japan Hitachi</option>
+<option>Japan Horseman</option>
+<option>Taiwan HTC</option>
+<option>China Huawei</option>
+<option>United States Hunten</option>
+<option>Taiwan iPUX</option>
+<option>United States IQinVision</option>
+<option>IT Works</option>
+<option>Jaga</option>
+<option>Germany Jenoptik</option>
+<option>Japan JVC</option>
+<option>Germany Kaiser</option>
+<option>United States Ken</option>
+<option>Israel Leaf</option>
+<option>China Lenovo</option>
+<option>United States Leupold</option>
+<option>South Korea LG</option>
+<option>Germany Linhof</option>
+<option>Livelook</option>
+<option>Switzerland Logitech</option>
+<option>Canada Lumenera</option>
+<option>Japan Mamiya</option>
+<option>Singapore Mercury</option>
+<option>United States Microsoft</option>
+<option>Germany Minox</option>
+<option>Micro Innovations</option>
+<option>Germany Mobotix</option>
+<option>United States Motorola</option>
+<option>United States Moultrie</option>
+<option>Taiwan Mustek Systems</option>
+<option>Japan Nintendo</option>
+<option>Finland Nokia</option>
+</select>
+</body>
+</html>
